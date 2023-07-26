@@ -10,13 +10,14 @@ Currently, two official plugins are available:
 # ¿Qué hace el hook `useEffect`?
 
 El hook useEffect se usa para ejecutar código cuando se renderiza el componente o cuando cambian las dependencias del efecto.
+useEffect se ejecuta después de que el componente se ha renderizado por primera vez y luego se vuelve a ejecutar cada vez que cambia alguna de las dependencias.
 
 Recibe dos parámetros:
 
-La función que se ejecutará al cambiar las dependencias o al renderizar el componente.
+°°La función que se ejecutará al cambiar las dependencias o al renderizar el componente.
 
-Un array de dependencias. Si cambia el valor de alguna dependencia, ejecutará la función.
+°°Un array de dependencias. Si cambia el valor de alguna dependencia, ejecutará la función.
 
-¿Cuándo se usa useEffect?
 
-useEffect se ejecuta después de que el componente se ha renderizado por primera vez y luego se vuelve a ejecutar cada vez que cambia alguna de las dependencias.
+
+
