@@ -16,3 +16,7 @@ Recibe dos parámetros:
 La función que se ejecutará al cambiar las dependencias o al renderizar el componente.
 
 Un array de dependencias. Si cambia el valor de alguna dependencia, ejecutará la función.
+
+¿Cuándo se usa useEffect?
+
+useEffect se ejecuta después de que el componente se ha renderizado por primera vez y luego se vuelve a ejecutar cada vez que cambia alguna de las dependencias.
